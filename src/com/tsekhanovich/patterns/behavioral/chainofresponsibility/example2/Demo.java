@@ -14,13 +14,9 @@ public class Demo {
         server.register("admin@example.com", "admin_pass");
         server.register("user@example.com", "user_pass");
 
-        // Проверки связаны в одну цепь. Клиент может строить различные цепи,
-        // используя одни и те же компоненты.
         Middleware middleware = new ThrottlingMiddleware(2);
-        middleware.linkWith(new UserExistsMiddleware(server))
-                .linkWith(new RoleCheckMiddleware());
+        middleware.linkWith(new UserExistsMiddleware(server)).linkWith(new RoleCheckMiddleware());
 
-        // Сервер получает цепочку от клиентского кода.
         server.setMiddleware(middleware);
     }
 

@@ -15,10 +15,7 @@ public class Server {
     public boolean logIn(String email, String password) {
         if (middleware.check(email, password)) {
             System.out.println("Authorization have been successful!");
-
-            // Здесь должен быть какой-то полезный код, работающий для
-            // авторизированных пользователей.
-
+            //check user
             return true;
         }
         return false;
