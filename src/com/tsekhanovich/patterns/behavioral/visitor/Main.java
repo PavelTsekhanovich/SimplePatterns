@@ -1,7 +1,7 @@
 package com.tsekhanovich.patterns.behavioral.visitor;
 
 /**
- * @author Pavel Tsekhanovich 25.08.2018
+ * @author Pavel Tsekhanovich 26.08.2018
  *
  * Visitor
  * Allows you to add new behavior to all objects of some related structure,

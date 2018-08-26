@@ -1,7 +1,7 @@
 package com.tsekhanovich.patterns.behavioral.templatemethod.example1;
 
 /**
- * @author Pavel Tsekhanovich 25.08.2018
+ * @author Pavel Tsekhanovich 26.08.2018
  *
  * Templatemethod
  * Defines the skeleton of the algorithm, shifting responsibility for some of its steps to subclasses.
