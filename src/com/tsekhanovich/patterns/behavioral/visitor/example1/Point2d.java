@@ -1,11 +1,10 @@
-package com.tsekhanovich.patterns.behavioral.visitor;
+package com.tsekhanovich.patterns.behavioral.visitor.example1;
 
-public class Point3d extends Point {
+public class Point2d extends Point {
 
-    public Point3d(double x, double y, double z) {
+    public Point2d(double x, double y) {
         this.x = x;
         this.y = y;
-        this.z = z;
     }
 
     public void accept(Visitor v) {
@@ -22,11 +21,5 @@ public class Point3d extends Point {
 
     public double getY() {
         return y;
-    }
-
-    private double z;
-
-    public double getZ() {
-        return z;
     }
 }

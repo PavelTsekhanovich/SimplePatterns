@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.behavioral.visitor;
+package com.tsekhanovich.patterns.behavioral.visitor.example1;
 
 /**
  * @author Pavel Tsekhanovich 26.08.2018

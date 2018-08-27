@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.behavioral.visitor;
+package com.tsekhanovich.patterns.behavioral.visitor.example1;
 
 public abstract class Point {
 
