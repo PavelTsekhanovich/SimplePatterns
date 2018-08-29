@@ -6,11 +6,11 @@ package com.tsekhanovich.patterns.behavioral.mediator.example1;
  * Mediator
  * Reduces the connectivity of a set of classes with each other,
  * due to the movement of these links to one class-mediator.
- *
+ * <p>
  * + Eliminates dependencies between components.
  * + Simplifies the interaction between components.
  * + Centralizes management in one place.
- *
+ * <p>
  * - The middleman can swell up a lot.
  */
 

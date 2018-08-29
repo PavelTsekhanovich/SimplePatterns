@@ -7,10 +7,10 @@ package com.tsekhanovich.patterns.behavioral.memento.example1;
  * Allows you to take a snapshot of the state of the object,
  * without revealing the details of its implementation,
  * you can later restore the past state of the object using this snapshot.
- *
+ * <p>
  * + Does not violate the encapsulation of the source object.
  * + Simplifies the structure of the source object. He does not need to store version history its state.
- *
+ * <p>
  * - Requires a lot of memory, if clients too often create snapshots can entail additional memory
  * costs if objects that store history do not release resources occupied by outdated snapshots.
  */
