@@ -21,4 +21,3 @@ public class CompositeGraphic implements Graphic{
         childGraphics.remove(graphic);
     }
 }
-p.tsekhanovich93@gmail.com
