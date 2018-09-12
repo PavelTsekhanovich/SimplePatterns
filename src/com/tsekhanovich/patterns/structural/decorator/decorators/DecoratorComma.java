@@ -2,7 +2,7 @@ package com.tsekhanovich.patterns.structural.decorator.decorators;
 
 import com.tsekhanovich.patterns.structural.decorator.components.InterfaceComponent;
 
-public class DecoratorComma extends Decorator{
+public class DecoratorComma extends Decorator {
     public DecoratorComma(InterfaceComponent interfaceComponent) {
         super(interfaceComponent);
     }

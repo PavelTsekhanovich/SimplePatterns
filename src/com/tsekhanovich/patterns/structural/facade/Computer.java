@@ -14,7 +14,7 @@ public class Computer {
         this.hardDrive = hardDrive;
     }
 
-    public void startComputer(){
+    public void startComputer() {
         cpu.freeze();
         memory.load(1, hardDrive.read(1, 2));
         cpu.jump(1);

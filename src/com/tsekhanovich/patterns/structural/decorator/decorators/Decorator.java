@@ -13,7 +13,7 @@ public abstract class Decorator implements InterfaceComponent {
         interfaceComponent.doOperation();
     }
 
-    public void newOperation(){
+    public void newOperation() {
         System.out.println("Do nothing");
     }
 }

@@ -1,7 +1,7 @@
 package com.tsekhanovich.patterns.structural.adapter;
 
-public class ChiefAdapter implements Chief{
-    private  Plumber plumber = new Plumber();
+public class ChiefAdapter implements Chief {
+    private Plumber plumber = new Plumber();
 
     public Object makeBreakfast() {
         return plumber.getKey();

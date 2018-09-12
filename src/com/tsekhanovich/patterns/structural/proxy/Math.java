@@ -1,6 +1,6 @@
 package com.tsekhanovich.patterns.structural.proxy;
 
-public class Math implements IMath{
+public class Math implements IMath {
     public double add(double x, double y) {
         return x + y;
     }

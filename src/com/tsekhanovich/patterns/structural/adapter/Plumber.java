@@ -1,15 +1,15 @@
 package com.tsekhanovich.patterns.structural.adapter;
 
 public class Plumber {
-    public Object getPipe(){
+    public Object getPipe() {
         return new Object();
     }
 
-    public Object getKey(){
+    public Object getKey() {
         return new Object();
     }
 
-    public Object getScrewDriver(){
+    public Object getScrewDriver() {
         return new Object();
     }
 }

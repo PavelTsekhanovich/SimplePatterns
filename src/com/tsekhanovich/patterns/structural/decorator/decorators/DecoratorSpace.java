@@ -2,7 +2,7 @@ package com.tsekhanovich.patterns.structural.decorator.decorators;
 
 import com.tsekhanovich.patterns.structural.decorator.components.InterfaceComponent;
 
-public class DecoratorSpace extends Decorator{
+public class DecoratorSpace extends Decorator {
     public DecoratorSpace(InterfaceComponent interfaceComponent) {
         super(interfaceComponent);
     }
