@@ -1,7 +1,6 @@
 package com.tsekhanovich.patterns.generative.builder.builders;
 
 public class SpicyPizzaBuilder extends PizzaBuilder {
-
     @Override
     public void buildDough() {
         pizza.setDough("pan baked");
