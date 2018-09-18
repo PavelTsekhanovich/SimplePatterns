@@ -1,7 +1,6 @@
 package com.tsekhanovich.patterns.generative.builder.builders;
 
 public class HawaiianPizzaBuilder extends PizzaBuilder {
-
     @Override
     public void buildDough() {
         pizza.setDough("cross");
