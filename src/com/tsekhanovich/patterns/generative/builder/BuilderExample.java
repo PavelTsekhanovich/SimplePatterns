@@ -6,7 +6,6 @@ import com.tsekhanovich.patterns.generative.builder.director.Waiter;
 import com.tsekhanovich.patterns.generative.builder.product.Pizza;
 
 public class BuilderExample {
-
     public static void main(String[] args) {
         Waiter waiter = new Waiter();
         PizzaBuilder pizzaBuilder = new HawaiianPizzaBuilder();
