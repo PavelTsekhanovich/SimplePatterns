@@ -3,6 +3,7 @@ package com.tsekhanovich.patterns.structural.decorator.decorators;
 import com.tsekhanovich.patterns.structural.decorator.components.InterfaceComponent;
 
 public class DecoratorHello extends Decorator {
+
     public DecoratorHello(InterfaceComponent interfaceComponent) {
         super(interfaceComponent);
     }
