@@ -2,17 +2,17 @@ package com.tsekhanovich.patterns.behavioral.chainofresponsibility.example1;
 
 /**
  * @author Pavel Tsekhanovich 21.08.18
- * <p>
+ *
  * Chain of responsibility
  * Associates recipient objects in a chain and passes a
  * request along this chain until it is processed.
  * Eliminates the rigid binding of the sender of the request to its recipient,
  * allowing you to build a chain of different processors dynamically.
- * <p>
+ *
  * + Reduces the dependency between the client and the handlers.
  * + Observes the principle of the sole responsibility of the class.
  * + Observes the principle of openness / closure.
- * <p>
+ *
  * - The request can remain unprocessed.
  */
 
