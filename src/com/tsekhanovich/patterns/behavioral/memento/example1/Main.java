@@ -2,7 +2,7 @@ package com.tsekhanovich.patterns.behavioral.memento.example1;
 
 /**
  * @author Pavel Tsekhamovich 23.08.2018
- * <p>
+ *
  * Memento
  * Allows you to take a snapshot of the state of the object,
  * without revealing the details of its implementation,
