@@ -1,6 +1,7 @@
-package com.tsekhanovich.patterns.structural.bridge;
+package com.tsekhanovich.patterns.structural.bridge.example1;
 
 public class Circle extends Shape {
+
     private int x;
 
     private int y;

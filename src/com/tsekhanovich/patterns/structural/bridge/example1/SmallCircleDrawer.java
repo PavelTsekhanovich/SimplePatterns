@@ -1,6 +1,7 @@
-package com.tsekhanovich.patterns.structural.bridge;
+package com.tsekhanovich.patterns.structural.bridge.example1;
 
 public class SmallCircleDrawer implements Drawer {
+
     public static final double radiusMultiplier = 0.25;
 
     public void drawCircle(int x, int y, int radius) {
