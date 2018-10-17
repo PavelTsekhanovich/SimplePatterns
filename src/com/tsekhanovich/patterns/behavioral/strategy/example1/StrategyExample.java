@@ -2,15 +2,15 @@ package com.tsekhanovich.patterns.behavioral.strategy.example1;
 
 /**
  * @author Pavel Tsekhanovich 25.08.2018
- * <p>
+ *
  * Strategy
  * Defines a family of similar algorithms and places each of them
  * in its own class, after which, the algorithms can be interchanged right at runtime.
- * <p>
+ *
  * + Hot swapping algorithms on the fly.
  * + Escape from inheritance to delegation.
  * + Hides dangerous / redundant algorithm data from the client.
- * <p>
+ *
  * - Complicates the program at the expense of additional classes.
  * - The client should know the difference between the strategies in order to choose the appropriate.
  */

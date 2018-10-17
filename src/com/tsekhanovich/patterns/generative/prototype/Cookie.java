@@ -1,6 +1,7 @@
 package com.tsekhanovich.patterns.generative.prototype;
 
 public class Cookie implements Cloneable {
+
     protected int weight;
 
     @Override

@@ -1,6 +1,7 @@
 package com.tsekhanovich.patterns.structural.facade;
 
 public class Computer {
+
     private CPU cpu;
     private Memory memory;
     private HardDrive hardDrive;

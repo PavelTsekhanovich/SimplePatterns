@@ -7,6 +7,7 @@ import com.tsekhanovich.patterns.structural.decorator.decorators.DecoratorHello;
 import com.tsekhanovich.patterns.structural.decorator.decorators.DecoratorSpace;
 
 public class Main {
+
     public static void main(String[] args) {
         Decorator decorator = new DecoratorHello(new DecoratorComma(new DecoratorSpace(new MainComponent())));
         decorator.doOperation();

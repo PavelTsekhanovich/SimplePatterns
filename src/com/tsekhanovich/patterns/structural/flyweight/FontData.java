@@ -9,8 +9,8 @@ import java.util.Set;
 import java.util.WeakHashMap;
 
 public final class FontData {
-    private static final WeakHashMap<FontData, WeakReference<FontData>> flyweightData =
-            new WeakHashMap<FontData, WeakReference<FontData>>();
+
+    private static final WeakHashMap<FontData, WeakReference<FontData>> flyweightData = new WeakHashMap<FontData, WeakReference<FontData>>();
     private final int pointSize;
     private final String fontFace;
     private final Color color;

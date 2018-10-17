@@ -1,6 +1,7 @@
 package com.tsekhanovich.patterns.structural.proxy;
 
 public class Main {
+
     public static void main(String[] args) {
         IMath p = new MathProxy();
 

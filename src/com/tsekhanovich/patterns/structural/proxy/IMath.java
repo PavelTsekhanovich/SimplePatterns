@@ -1,6 +1,7 @@
 package com.tsekhanovich.patterns.structural.proxy;
 
 public interface IMath {
+
     double add(double x, double y);
 
     double sub(double x, double y);

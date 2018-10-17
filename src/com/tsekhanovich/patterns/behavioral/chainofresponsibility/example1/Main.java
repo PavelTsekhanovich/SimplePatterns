@@ -36,13 +36,3 @@ public class Main {
         logger0.message("An error has occurred.", Logger.ERR);
     }
 }
-
-/*
-The output is:
-   Writing to stdout:   Entering function y.
-   Writing to stdout:   Step1 completed.
-   Sending via e-mail:  Step1 completed.
-   Writing to stdout:   An error has occurred.
-   Sending via e-mail:  An error has occurred.
-   Writing to stderr:   An error has occurred.
-*/

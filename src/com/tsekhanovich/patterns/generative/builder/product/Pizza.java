@@ -1,6 +1,7 @@
 package com.tsekhanovich.patterns.generative.builder.product;
 
 public class Pizza {
+
     private String dough = "";
     private String sauce = "";
     private String topping = "";
