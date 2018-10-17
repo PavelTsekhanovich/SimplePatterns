@@ -3,9 +3,7 @@ package com.tsekhanovich.patterns.structural.bridge.example1;
 public class Circle extends Shape {
 
     private int x;
-
     private int y;
-
     private int radius;
 
     public Circle(int x, int y, int radius, Drawer drawer) {
