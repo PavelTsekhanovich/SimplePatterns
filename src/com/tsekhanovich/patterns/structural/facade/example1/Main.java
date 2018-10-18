@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.structural.facade;
+package com.tsekhanovich.patterns.structural.facade.example1;
 
 public class Main {
 
