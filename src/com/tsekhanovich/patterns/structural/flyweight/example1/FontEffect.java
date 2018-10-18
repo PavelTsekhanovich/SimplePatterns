@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.structural.flyweight;
+package com.tsekhanovich.patterns.structural.flyweight.example1;
 
 public enum FontEffect {
 
