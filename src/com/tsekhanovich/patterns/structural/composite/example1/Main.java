@@ -1,7 +1,21 @@
-package com.tsekhanovich.patterns.structural.composite;
+package com.tsekhanovich.patterns.structural.composite.example1;
 
+/**
+ * @author Pavel Tsekhanovich 17.10.2018
+ *
+ * composite
+ * Сombines objects in a tree structure to represent the hierarchy from the particular to the whole.
+ * Linker allows clients to access individual objects and groups of objects in the same way.
+ *
+ * + Simplifies client architecture when working with a complex component tree.
+ * + Facilitates the addition of new types of components.
+ *
+ * - Creates too general class design.
+ */
 public class Main {
+
     public static void main(String[] args) {
+
         Ellipse ellipse1 = new Ellipse();
         Ellipse ellipse2 = new Ellipse();
         Ellipse ellipse3 = new Ellipse();

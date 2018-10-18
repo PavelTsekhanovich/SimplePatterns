@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.structural.composite;
+package com.tsekhanovich.patterns.structural.composite.example1;
 
 import java.util.ArrayList;
 import java.util.List;

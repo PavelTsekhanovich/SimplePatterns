@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.structural.composite;
+package com.tsekhanovich.patterns.structural.composite.example1;
 
 public class Ellipse implements Graphic {
 
