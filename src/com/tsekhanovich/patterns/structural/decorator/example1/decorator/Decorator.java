@@ -1,6 +1,6 @@
-package com.tsekhanovich.patterns.structural.decorator.decorators;
+package com.tsekhanovich.patterns.structural.decorator.example1.decorator;
 
-import com.tsekhanovich.patterns.structural.decorator.components.InterfaceComponent;
+import com.tsekhanovich.patterns.structural.decorator.example1.component.InterfaceComponent;
 
 public abstract class Decorator implements InterfaceComponent {
 

@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.structural.decorator.components;
+package com.tsekhanovich.patterns.structural.decorator.example1.component;
 
 public class MainComponent implements InterfaceComponent {
 
