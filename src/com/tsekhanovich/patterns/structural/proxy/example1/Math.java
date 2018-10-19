@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.structural.proxy;
+package com.tsekhanovich.patterns.structural.proxy.example1;
 
 public class Math implements IMath {
 
