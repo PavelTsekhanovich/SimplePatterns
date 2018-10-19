@@ -4,7 +4,7 @@ import com.tsekhanovich.patterns.generative.abstractfactory.example1.factories.A
 import com.tsekhanovich.patterns.generative.abstractfactory.example1.factories.Factory1;
 import com.tsekhanovich.patterns.generative.abstractfactory.example1.factories.Factory2;
 
-public class AbstractFactoryExample {
+public class Main {
 
     public static void main(String[] args) {
         AbstractFactory factory1 = new Factory1();
