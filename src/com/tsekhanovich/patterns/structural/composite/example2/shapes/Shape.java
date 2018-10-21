@@ -1,6 +1,6 @@
 package com.tsekhanovich.patterns.structural.composite.example2.shapes;
 
-import java.awt.Graphics;
+import java.awt.*;
 
 public interface Shape {
 

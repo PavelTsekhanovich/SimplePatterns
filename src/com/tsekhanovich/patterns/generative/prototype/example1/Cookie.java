@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.generative.prototype;
+package com.tsekhanovich.patterns.generative.prototype.example1;
 
 public class Cookie implements Cloneable {
 

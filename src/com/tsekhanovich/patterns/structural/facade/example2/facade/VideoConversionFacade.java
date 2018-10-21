@@ -1,6 +1,12 @@
 package com.tsekhanovich.patterns.structural.facade.example2.facade;
 
-import com.tsekhanovich.patterns.structural.facade.example2.*;
+import com.tsekhanovich.patterns.structural.facade.example2.AudioMixer;
+import com.tsekhanovich.patterns.structural.facade.example2.BitrateReader;
+import com.tsekhanovich.patterns.structural.facade.example2.Codec;
+import com.tsekhanovich.patterns.structural.facade.example2.CodecFactory;
+import com.tsekhanovich.patterns.structural.facade.example2.MPEG4CompressionCodec;
+import com.tsekhanovich.patterns.structural.facade.example2.OggCompressionCodec;
+import com.tsekhanovich.patterns.structural.facade.example2.VideoFile;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.generative.singleton;
+package com.tsekhanovich.patterns.generative.singleton.example1;
 
 public class Singleton {
 
