@@ -1,7 +1,7 @@
-package com.tsekhanovich.patterns.generative.builder.director;
+package com.tsekhanovich.patterns.generative.builder.example1.director;
 
-import com.tsekhanovich.patterns.generative.builder.builders.PizzaBuilder;
-import com.tsekhanovich.patterns.generative.builder.product.Pizza;
+import com.tsekhanovich.patterns.generative.builder.example1.builders.PizzaBuilder;
+import com.tsekhanovich.patterns.generative.builder.example1.product.Pizza;
 
 public class Waiter {
 

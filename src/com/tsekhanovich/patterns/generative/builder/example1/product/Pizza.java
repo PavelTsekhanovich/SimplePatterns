@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.generative.builder.product;
+package com.tsekhanovich.patterns.generative.builder.example1.product;
 
 public class Pizza {
 

@@ -1,6 +1,6 @@
-package com.tsekhanovich.patterns.generative.builder.builders;
+package com.tsekhanovich.patterns.generative.builder.example1.builders;
 
-import com.tsekhanovich.patterns.generative.builder.product.Pizza;
+import com.tsekhanovich.patterns.generative.builder.example1.product.Pizza;
 
 public abstract class PizzaBuilder {
 

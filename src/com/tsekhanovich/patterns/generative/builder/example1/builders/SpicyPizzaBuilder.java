@@ -1,4 +1,4 @@
-package com.tsekhanovich.patterns.generative.builder.builders;
+package com.tsekhanovich.patterns.generative.builder.example1.builders;
 
 public class SpicyPizzaBuilder extends PizzaBuilder {
 
